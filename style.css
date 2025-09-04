@@ -1,0 +1,46 @@
+/* Novo estilo para o portfólio moderno com dark mode e animações */
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+/* Animações */
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.fade.show {
+    opacity: 1;
+}
+
+/* Integração GitHub e IA Ema */
+.github-integration {
+    display: flex;
+    align-items: center;
+}
+
+.github-integration img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
